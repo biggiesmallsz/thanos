@@ -1,0 +1,119 @@
+/* CSS Document */
+
+/* CSS Reset */
+body, h1, h2, main, nav, nav a, div, img, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+body {
+	background: #FEE647;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 2em;
+}
+
+header{
+	padding: 2%;
+}
+
+form img{
+	max-width: 75%;
+	border-radius: 2em;
+}
+
+blockquote {
+	font-size: 3em;
+	color:#000;
+	-webkit-text-stroke: .2px hotpink;
+	text-align: center;
+	font-weight: bold;
+}
+
+main p{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h2{
+	font-size: 300%;
+}
+
+table {
+	width: 100%;
+}
+
+td{
+	padding: 10px 0;
+}
+
+label {
+	padding: 0 25;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+input{
+	height: 3em;
+	width: 20em;
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 1.3em;
+	font-weight: bold;
+	border: 5px double;
+}
+
+
+.frmButton{
+	margin-left: 15%;
+	width: 10em;
+	background-color: #8602A1;
+}
+
+.frmButton:hover{
+	color: #fff;
+}
+
+h2{
+	text-align: center;
+	text-decoration: bold;
+}
+
+
+nav {
+	background-color: #9C00FF;
+}
+
+nav a {display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 2em;
+}
+a:hover {
+	color: #fff;
+	
+}nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	
+}nav li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
+
+footer p{
+	padding: 2em;
+}
+
